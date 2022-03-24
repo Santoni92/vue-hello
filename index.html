@@ -11,8 +11,16 @@
     <title>Vue Hello</title>
 </head>
 <body>
-    <h1 id="saluto">{{messaggio}}</h1>
+    <!--metto tutto in un unico div e quindi utilizzo un unico id-->
+    <div id="saluto">
+        <h1 id="saluto">{{messaggio}}</h1>
+        <img id="immagine" v-bind:src="pathImg" alt="tigre"> <!--oppure      :src="pathImg"-->
+    </div>
 
-    <img id="immagine" v-bind:src="pathImg" alt="tigre"> <!--oppure      :src="pathImg"-->
+
+    <!--utilizzo due id-->
+    <!--h1 id="saluto">{{messaggio}}</h1>
+
+    <img id="immagine" v-bind:src="pathImg" alt="tigre"--> <!--oppure      :src="pathImg"-->
 </body>
 </html>
