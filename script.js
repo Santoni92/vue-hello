@@ -4,7 +4,8 @@ const riferimento = new Vue(
     {
         el : '#saluto',
         data: {
-                messaggio: 'Hello World'
+                messaggio: 'Hello World',
+                pathImg: 'img/tigre.jpg'
              }
     }
     
